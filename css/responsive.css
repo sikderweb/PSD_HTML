@@ -1,0 +1,51 @@
+
+@media(max-width: 1399px){
+
+
+}
+@media(max-width: 1199px){
+
+ }
+@media(max-width: 991px){
+				    
+    
+}
+
+@media(max-width: 767px){
+    .banner_section h1 {
+        font-size: 40px;
+    }	
+    .right_content h1 {
+        font-size: 35px;
+        max-width: 450px;
+    }
+    .feature p {
+        font-size: 11px;
+    }
+    .feature h2 {
+        font-size: 16px;}
+    .feature {
+        padding: 30px 0;
+        min-height: 280px;}
+}
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+	.banner_section h1 {
+        font-size: 35px;
+        max-width: 460px;
+        
+    }
+    .banner_section p {
+        max-width: 460px;
+    }
+    section {
+        padding: 30px 15px;
+    }
+    .feature {
+        padding: 20px 0;
+        min-height: 290px;
+    }
+    .feature h2 {
+        font-size: 14px;
+    }
+ }
