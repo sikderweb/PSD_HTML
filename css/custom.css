@@ -538,18 +538,18 @@ padding: 10px 5px;
 
   }
 .blog_content ul {     
-  padding: 5px 10px;
      font-size: 12px;
  font-weight: 300;
  color: #6e6e6e;
    }
   .icon{
     position: absolute;
-    left: 10%;
+    left: 5%;
     bottom: 33%;
   }
 .blog_content ul li {
   margin-left: 1px;
+  margin-top: 5px;
 }
 .blog_content ul li span {
    display: block;
