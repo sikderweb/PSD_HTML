@@ -5,7 +5,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+html{
+  font-size: 62.5%;
+}
 body {
   font-family: Raleway, sans-serif;
 }
@@ -22,12 +24,12 @@ img {
 }
 
 .my {
-  margin-bottom: 70px;
+  margin-bottom: 7rem;
 }
 
 .shape {
-  height: 50px;
-  width: 50px;
+  height: 5rem;
+  width: 5rem;
   text-align: center;
   position: relative;
   border: 1px solid;
@@ -39,7 +41,7 @@ img {
 
 
 .line {
-  width: 50px;
+  width: 5rem;
   height: 1px;
   border: 1px solid #ff9b1a;
   display: block;
@@ -48,12 +50,15 @@ img {
 
 .btn_custom {
   color: #fff;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
-  border-radius: 30px;
-  padding: 10px 12px;
+  border-radius: 3rem;
+  padding: 1rem 1.2rem;
   background: #ff9b1a;
+  width: 15%;
+  margin-right: 20px;
+  text-align: center;
 }
 
 .btn_custom:hover {
@@ -62,12 +67,14 @@ img {
 }
 
 .btn_revers {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
-  border-radius: 30px;
-  padding: 10px 12px;
+  border-radius: 3rem;
+  padding: 1rem 1.2rem;
   border: 1px solid #efefef;
+  width: 15%;
+  text-align: center;
 }
 
 .btn_revers:hover {
@@ -83,7 +90,7 @@ img {
 
 .top_header p {
   font-family: Montserrat, sans-serif;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .top_menu {
@@ -99,10 +106,10 @@ img {
   background-color: #efefef;
   color: #7f7f7f;
   font-family: Montserrat, sans-serif;
-  padding: 5px 15px;
+  padding: .5rem 1.5rem;
   display: block;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .top_menu ul li :hover {
@@ -110,11 +117,11 @@ img {
 }
 
 header .navbar-nav .nav-item .nav-link {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
-  border-radius: 30px;
-  padding: 10px 12px;
+  border-radius: 3rem;
+  padding: 1rem 1.2rem;
   color: #000000;
 }
 
@@ -126,7 +133,7 @@ header .navbar-nav .nav-item :hover {
 header .navbar-nav .nav-item:last-child {
   color: #fff;
   background-color: #ff9b1a;
-  border-radius: 30px;
+  border-radius: 3rem;
 }
 
 .banner_section {
@@ -134,7 +141,9 @@ header .navbar-nav .nav-item:last-child {
   font-family: Raleway, sans-serif;
   color: #efefef;
 }
+.payment_history{
 
+}
 .banner_section .container {
   position: absolute;
   top: 50%;
@@ -148,32 +157,32 @@ header .navbar-nav .nav-item:last-child {
 }
 
 .banner_section .banner_content h1 {
-  font-size: 52px;
+  font-size: 5.2rem;
   font-weight: 700;
 }
 
 .banner_section .banner_content a {
   color: #fff;
-  margin: 0 10px;
+  margin: 0 1rem;
 }
 
 .banner_section .banner_content h4 {
   font-family: Raleway, sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 .banner_section .banner_content span {
   font-family: Raleway, sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 
 .feature {
-  padding: 20px 30px;
+  padding: 2rem 3rem;
   border: 1px solid #efefef;
   position: relative;
-  border-radius: 10px;
+  border-radius: 1rem;
   overflow: hidden;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -225,18 +234,18 @@ header .navbar-nav .nav-item:last-child {
 }
 
 .feature img {
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 .feature h4 {
   font-family: Montserrat, sans-serif;
-  font-size: 17px;
-  padding-bottom: 15px;
+  font-size: 1.7rem;
+  padding-bottom: 1.5rem;
 }
 
 .feature p {
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
@@ -251,14 +260,14 @@ header .navbar-nav .nav-item:last-child {
 .service_content h2 {
   font-family: Montserrat, sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 2.4rem;
   text-transform: uppercase;
 }
 
 .service_content p {
   color: #6e6e6e;
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
@@ -272,33 +281,26 @@ header .navbar-nav .nav-item:last-child {
 }
 
 .payment {
-  padding-bottom: 70px;
+  padding-bottom: 7rem;
 }
 
 .payment img {
-  padding: 5px 0;
+  padding: .5rem 0;
 }
 
 .payment h4 {
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #2b2b2b;
-  padding: 5px 0;
+  padding: .5rem 0;
 }
 
 .payment p {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #424242;
-  padding: 5px 0;
-}
-
-.simple_step {
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: cover;
-  overflow: hidden;
+  padding: .5rem 0;
 }
 
 .simple_step ::before {
@@ -313,107 +315,143 @@ header .navbar-nav .nav-item:last-child {
   z-index: -1;
 }
 
-.simple_step .container {
-  position: absolute;
-  top: 0;
+.simple_step{
+  background-image: url(../images/bannar.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding-top: 8rem;
 }
-
-.simple_step .container .simpl_img {
+.simpl_img {
   position: relative;
   padding-bottom: 0;
-  padding-top: 20px;
+  padding-top: 2rem;
 }
-.simple_step .container .simpl_img img{
+.simpl_img img{
 }
 
-.simple_step .container .simpl_img .logo_img {
-  position: absolute;
-  bottom: 50%;
-  -webkit-transform: translate(-30%, -50%);
-          transform: translate(-30%, -50%);
-  left: 30%;
-}
-.simple_step .container .simpl_img .logo_img img{
+.simpl_img .logo_img {
+    position: absolute;
+    bottom: 40%;
+    -webkit-transform: translate(-30%, -50%);
+    transform: translate(-30%, -40%);
+    left: 30%;
+} 
+.simpl_img .logo_img img{
       background-color: #fff;
 }
 
 .simple_step .simpl_step_cont {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   text-align: left;
   color: #fff;
   font-family: Raleway, sans-serif;
 
 }
+/*.simple_step .simpl_step_cont h5 {
+  font-size: 1.8rem;
+}
+.simple_step .simpl_step_cont p{
+  font-size: 1.4rem;
+}*/
 .line2{
-   width: 50px;
+   width: 5rem;
   height: 1px;
   border: 1px solid #ff9b1a;
   display: block;
-  margin: 5px 0;
+  margin: .5rem 0;
 }
-.shape1{
-      height: 50px;
-  width: 50px;
+/*.shape1{
+      height: 5rem;
+  width: 5rem;
   text-align: center;
   position: relative;
   border: 2px solid #ff9b1a;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  border-radius: 5px;
+  border-radius: .5rem;
   display: block;
-}
+}*/
 
 .simple_step .simpl_step_cont h2 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 2.4rem;
   text-transform: uppercase;
 }
 
 .simple_step .simpl_step_cont h5 {
   font-weight: 700;
-  font-size: 18px;
-  padding: 5px 0;
+  font-size: 1.8rem;
+  padding: .5rem 0;
 }
 
 .simple_step .simpl_step_cont p {
-  font-size: 14px;
-  padding: 5px 0;
+  font-size: 1.4rem;
+  padding: .5rem 0;
+}
+.shape1 span{
+  height: 4rem;
+  width: 4rem;
+}
+.shape1 span::after{
+  content: "";
+    height: 5rem;
+    width: 5rem;
+  text-align: center;
+  position: relative;
+  border: 2px solid #ff9b1a;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-radius: .5rem;
+  display: inline-block;
 }
 .amount_section{
   background-color: #ff9b1a;
   color: #fff;
   text-align: center;
-  padding: 60px 0;
+  padding: 6rem 0;
+  text-transform: uppercase;
+}
+.amount_section h2{
+  font-size: 5rem;
+  font-weight: 700;
+}
+.amount_section p {
+font-size: 1.8rem;
+font-weight:600;
 }
 .team_section, .feedback_content{
 font-family: Montserrat, sans-serif;
+padding: 7rem 0;
 }
 .team_section h2, .feedback_content h2{
   font-weight: 700;
-  font-size: 22px;
+  font-size: 2.2rem;
   color: #2b2b2b;
   text-transform: uppercase;
 }
-.team_section span, .feedback_content span {
+.team_section small, .feedback_content p {
    font-weight: 300;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #6e6e6e;
 }
 .team_member{
  font-family: Montserrat, sans-serif;
+ padding-bottom: 8rem;
 }
 .team_member img{
-   margin-bottom: 40px;
+   margin-bottom: 4rem;
 }
 .team_member h4{
-font-size: 18px;
-
- margin-bottom: 5px;
+font-size: 1.8rem;
+ margin-bottom: .5rem;
  text-transform: capitalize;
 }
 .team_member span,.user_feedback span{
  font-family: Montserrat, sans-serif;
- font-size: 14px;
+ font-size: 1.4rem;
  font-weight: 300;
  color: #fba057;
  text-transform: uppercase;
@@ -424,20 +462,42 @@ font-size: 18px;
   text-align: center;
 }
 .square{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-  font-size: 18px
+  font-size: 1.8rem;
   font-family: Montserrat, sans-serif;
+
+}
+.square span{
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    display: inline-block;
+}
+.square span i{
+  line-height: 4rem;
+}
+.square span::before{
+  content: "";
+    height:100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  border: 1px solid;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-radius: 5px;
 }
 .square p{
-    padding-top: 10px;
+    padding-top: 1rem;
+}
+.spider_section{
+
 }
 .spider_section .shape .fas{
   position: absolute;
-  top: 15px;
-  left: 15px;
+  top: 1.5rem;
+  left: 1.5rem;
 }
 
 .top_left{
@@ -489,31 +549,47 @@ align-items: center;
      font-family: Montserrat, sans-serif;
      background-image: url(../images/bannar_2.jpg);
      background-position:center;
-     padding: 70px 0;
+     padding: 7rem 0;
      color: #fff;
  
   }
   .cta_section h2{
-    font-size: 22px;
+    font-size: 2.2rem;
     color: #fff;
-    margin-bottom:15px;
+    margin-bottom:1.5rem;
     text-transform: uppercase;
   }
 .form {
-    font-size: 17px;
+    font-size: 1.7rem;
     border: 1px solid #fff;
-    border-radius: 30px;
+    border-radius: 3rem;
     width: 100%;
-    padding: 10px 15px;
+    padding: 1rem 1.5rem;
     background-color: transparent;
     color: #fff;
+}
+.btn_cta{
+  width: 15.4rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  border-radius: 3rem;
+  padding: 1rem 1.2rem;
+  background: #fb8f2c;
+}
+
+.btn_cta:hover {
+  border: 1px solid #efefef;
+  color: #fb8f2c;
+  background: transparent;
 }
 
 input{
 text-decoration: none;
 }
 ::placeholder{
-  color: #fff;
+  color: #fff !important;
 }
 .blog_section{
    font-family: Montserrat, sans-serif;
@@ -525,101 +601,124 @@ text-decoration: none;
   position: relative;
         }
 .blog_content p { 
-   font-size: 14px;
+   font-size: 1.4rem;
  font-weight: 300;
  color: #6e6e6e;
- padding: 10px 5px;
+ padding: 1rem .5rem;
  }
 .blog_content h3 {
- font-size: 16px;
+ font-size: 1.6rem;
  font-weight: 700;
  color: #2b2b2b;
-padding: 10px 5px;
+padding: 1rem .5rem;
 
   }
 .blog_content ul {     
-     font-size: 12px;
+  padding: .5rem 1rem;
+     font-size: 1.2rem;
  font-weight: 300;
  color: #6e6e6e;
    }
   .icon{
     position: absolute;
-    left: 5%;
+    left: 10%;
     bottom: 33%;
   }
 .blog_content ul li {
   margin-left: 1px;
-  margin-top: 5px;
 }
 .blog_content ul li span {
    display: block;
-    height: 40px;
-    width: 40px;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
     background-color:#f26c4f;
     position: relative;
 }
 .blog_content ul li span i {
- font-size: 20px;
+ font-size: 2rem;
     color: #fff;
     position: absolute;
     top: 50%;
     transform: translate(49%, -87%);
     bottom: 19%;
 }
+.feedback_content{
+ font-family: Montserrat, sans-serif;
+}
+.feedback_content p{
+font-size: 1.4rem;
+max-width: 50rem;
+margin: auto;
+}
 .user_feedback h4{
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 700;
  text-transform: capitalize;
+ color: #333;
 }
 .feedback_img{
   position: relative;
 }
+.feedback_img img{
+  position: relative;
+}
 .feedback_img span{
-    height: 40px;
-    width: 40px;
+    height: 4rem;
+    width: 4rem;
     display: block;
     border-radius: 50%;
     border: 1px solid #fff;
     background-color: #fb8f2c;
     position: absolute;
-    right: 35%;
+    right: 41%;
     top: 55%;
 }
 .feedback_img span i{
 color: #fff;
-    padding: 10px;
-    font-size: 20px;
+    padding: 1rem;
+    font-size: 2rem;
 }
+.carousel-item {
+    height:200px;
+  }
+.carousel-control-prev{
+    color: #333;
+    text-decoration: none;
+    }
+.carousel-control-prev:hover, .carousel-control-prev:focus, .carousel-control-next:hover, .carousel-control-next:focus {
+    color: #fb8f2c;
+    text-decoration: none;
+  }
 .top_footer{
   font-family: Montserrat, sans-serif;
  background-color: #101010;
  color: #848484;
- border-top: 1px solid #fb8f2c;
- padding:80px 0;
+ border-top: .1rem solid #fb8f2c;
+ padding:8rem 0;
 }
 .top_footer h3{
 font-weight: 600;
-font-size: 18px;
+font-size: 1.8rem;
 color: #fff;
-padding-bottom: 20px;
+padding-bottom: 2rem;
 }
 .top_footer p{
-font-size: 14px;
+font-size: 1.4rem;
 }
 .top_footer span{
   display: block;
   border:1px solid #fb8f2c ;
-  width: 40px;
-  margin-bottom: 40px;
+  width: 4rem;
+  margin-bottom: 4rem;
 }
 .footer_logo img {
 
 }
 .footer_logo p {
 font-family: Raleway, sans-serif;
-    padding: 50px 25px;
-    font-size: 15px;
+    padding: 5rem 2.5rem;
+    font-size: 1.5rem;
     line-height: 1.8;
 }
 .social_link{}
@@ -627,20 +726,20 @@ font-family: Raleway, sans-serif;
 
 }
 .social_link ul li{
-    height: 40px;
-    width: 40px;
-    padding: 10px;
+    height: 4rem;
+    width: 4rem;
+    padding: 1rem;
     border-radius: 50%;
-    border:1px solid #3a3938;
+    border:.1rem solid #3a3938;
     align-items: center;
     text-align: center;
     display: block;
     color: #3a3938;
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 .social_link ul li:hover{
     
-    border:1px solid #00aced;
+    border:.1rem solid #00aced;
     color: #00aced;
     
 }
@@ -659,9 +758,12 @@ font-family: Raleway, sans-serif;
 .far{
     color: #fb8f2c;
     position: absolute;
-    top: 78%;
-    font-size: 40px;
+    top: 6%;
+    font-size: 4.5rem;
     right: 0;
+}
+.carousel {
+    padding-bottom: 6rem;
 }
 .footer_form{
   position: relative;
@@ -670,7 +772,10 @@ font-family: Raleway, sans-serif;
   font-family: Montserrat, sans-serif;
  background-color: #000;
  color: #848484;
- font-size: 12px;
+ font-size: 1.2rem;
+}
+.nav-link{
+  text-transform: uppercase;
 }
 .bottom_footer span {
   color: #fff;

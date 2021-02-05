@@ -7,45 +7,54 @@
 
  }
 @media(max-width: 991px){
-				    
-    
+	html{
+        font-size: 50%;
+    }			    
+    .navbar-collapse {
+        align-items: center;
+        width: 25%;
+        display: flex;
+        justify-content: center;}
+    .spider_section {
+        display: none;
+    }
+    .blog_content ul {
+        display: none;
+    }
+
+
+
 }
 
 @media(max-width: 767px){
-    .banner_section h1 {
-        font-size: 40px;
-    }	
-    .right_content h1 {
-        font-size: 35px;
-        max-width: 450px;
+    html{
+        font-size: 37.5%;
     }
-    .feature p {
-        font-size: 11px;
-    }
-    .feature h2 {
-        font-size: 16px;}
-    .feature {
-        padding: 30px 0;
-        min-height: 280px;}
+    .top_header {
+    display: none;
+        }
+    .payment_history {
+        display: none;
+                    }
+    .btn_custom {
+    display: inline-block;
+    width: 20%;
+    margin-right: 20px;
+        }
+.social_link {
+    padding-bottom: 30px;
+}
+.simpl_img {
+    display: none;
+}
+.carousel-item{
+    display: none;
+    height: 0;
+}
+
 }
 /*// X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
-	.banner_section h1 {
-        font-size: 35px;
-        max-width: 460px;
-        
-    }
-    .banner_section p {
-        max-width: 460px;
-    }
-    section {
-        padding: 30px 15px;
-    }
-    .feature {
-        padding: 20px 0;
-        min-height: 290px;
-    }
-    .feature h2 {
-        font-size: 14px;
-    }
+
+
  }
